@@ -168,7 +168,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 3e0ce80065b59f448a04aa5771e9e76f, type: 2}
-  maxDepth: 4
+  maxDepth: 5
+  childScale: 0.5
+  secondsToWait: 0.15
+  meshes:
+  - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  spawnProbability: 0.93
+  maxRotationSpeed: 45
+  maxTwist: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
